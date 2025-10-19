@@ -18,11 +18,11 @@ public static class RangeHeaderParser
             return null;
         }
 
-        var range = rangeHeader.Ranges.SingleOrDefault();
-        if (range is null)
+        if (rangeHeader.Ranges.Count != 1)
         {
             return null;
         }
+        var range = rangeHeader.Ranges[0];
 
         long start;
         long end;
