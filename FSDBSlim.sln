@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSDBSlim.Api", "src/FSDBSlim.Api/FSDBSlim.Api.csproj", "{59883BA2-B02D-4762-984B-F260F5307691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSDBSlim.Tests", "tests/FSDBSlim.Tests/FSDBSlim.Tests.csproj", "{DE8B33F6-F70B-425B-820F-C9B9C67156AA}"
+EndProject
+Global
+GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+EndGlobalSection
+GlobalSection(ProjectConfigurationPlatforms) = postSolution
+{59883BA2-B02D-4762-984B-F260F5307691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{59883BA2-B02D-4762-984B-F260F5307691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{59883BA2-B02D-4762-984B-F260F5307691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{59883BA2-B02D-4762-984B-F260F5307691}.Release|Any CPU.Build.0 = Release|Any CPU
+{DE8B33F6-F70B-425B-820F-C9B9C67156AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+{DE8B33F6-F70B-425B-820F-C9B9C67156AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{DE8B33F6-F70B-425B-820F-C9B9C67156AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+{DE8B33F6-F70B-425B-820F-C9B9C67156AA}.Release|Any CPU.Build.0 = Release|Any CPU
+EndGlobalSection
+EndGlobal
